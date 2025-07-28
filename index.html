@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+ <head>
+        <meta charshet="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>apa itu xss</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <bodyy>
+        <h1>apa itu xss?</h1>
+        <p>XSS (Cross-site Scripting) adalah jenis kerentanan keamanan yang memungkinkan penyerang menyisipkan skrip berbahaya kedalam halaman web </p>
+        <p>yang kemudian dienskripsikan oleh browser pengguna lain. ini dapat digunakan untuk mencuri data sensistif, seperti cookie atay informasi lain.</p>
+        <p>untuk mencegah XSS, penting untuk memvalidasi dan membersihkan input pengguna, serta menggunakan teknik pengkodean yang aman. </p>
+        <p>selain itu, penggunaan header keaamanan seperti content-security-polic (csp) juga dapat membantu melindungi web dari serangan XSS.</p>
+    </header>
+
+    <main>
+        <section class="slide active">
+            <h2>Jenis-Jenis XSS</h2>
+            <ul>
+                <li><strong>XSS reflektif:</strong> skrip berbahaya disisipkan melalui URL atau input pegguna dan diekseukusi langsung oleh server.</li>
+                <li><strong>XSS tersimpan:</strong> skrip berbahaya disimpan di server dan dieksekusi ketika pengguna mengakses halaman yang terinfeksi.</li>
+                <li><strong>XSS DOM-based:</strong> skrip berbahaya memanipulasi document object model (DOM0) pada  sisi klien, tanpa melibatkan server.</li>
+                </ul>
+                </section>
+
+                <section class="slide active">
+                    <h2>Bagaimana mencegah XSS?</h2>
+                    <ul>
+                        <li>Validasi dan sanitasi input pengguna untuk mencegah skrip berbahaya masuk.</li>
+                        <li>Gunakan teknik pengkodean yang aman, seperti html encoding.</li>
+                        <li>Implementasikan header keaamanan seperti content-security-polic (csp) untuk membatasi sumber daya yang dapat dimuat oleh halaman web.</li>
+                        <li>Gunakan framwork atau pustaka yang menyediakan perlindunga terhadap XSS.</li>
+                    </ul>
+                    </section>
+
+                    <section class="slide active">
+                        <h2>Terima kasih</h2>
+                        <p>Terima kasih telah membaca tentang XSS. semoga informasi ini bermanfaat untuk mengingatkan keamanan web anda.</p> 
+                    </section>
+                    </main>
+
+                    <div class="controls">
+                        <button id="prev">Sebelumnya</button>
+                        <button id="next">selanjutnya</button>
+                        </div>
+
+                        <script src="script.js"></script>
+</bodyy>
+</html>
